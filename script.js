@@ -5,7 +5,16 @@ console.log("Hello, World!");
 // assign value to varaible computer-choice
 // return the value
 
- let getComputerChoice = () => Math.random();
+ let getComputerChoice = () => {
+    let choice = Math.floor(Math.random() * 3);
+    if (choice === 0) {
+        return "ROCK";
+    } else if (choice === 1) {
+        return "PAPER";
+    } else {
+        return "SCISSOR";
+    }
+ } 
 
 // make getHumanChoice function
 // create variable

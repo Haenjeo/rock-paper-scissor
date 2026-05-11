@@ -47,3 +47,6 @@ function playRound(humanChoice, computerChoice) {
 // Create const for choice value container
 const humanSelection = getHumanChoice();
 const computerSelection = getComputerChoice();
+
+// Activating function playRound
+playRound(humanSelection,computerSelection);

@@ -43,3 +43,7 @@ function playRound(humanChoice, computerChoice) {
         console.log("You draw!");
     }
 }
+
+// Create const for choice value container
+const humanSelection = getHumanChoice();
+const computerSelection = getComputerChoice();

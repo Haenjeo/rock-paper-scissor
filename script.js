@@ -6,3 +6,10 @@ console.log("Hello, World!");
 // return the value
 
  let getComputerChoice = () => Math.random();
+
+// make getHumanChoice function
+// create variable
+// assign the value
+// return the value
+
+ let getHumanChoice = (input) => prompt("Choose your Rock, Paper, Scissor",input);

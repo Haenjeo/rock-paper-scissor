@@ -29,16 +29,22 @@ function playRound(humanChoice, computerChoice) {
 
     if (human === "ROCK" && computer === "PAPER") {
         console.log("You lose! Paper beats Rock");
+        ++computerScore;
     } else if (human === "PAPER" && computer === "SCISSOR") {
         console.log("You lose! Scissor beats Paper");
+        ++computerScore;
     } else if (human === "SCISSOR" && computer === "ROCK") {
         console.log("You lose! Rock beats Scissor");
+        ++computerScore;
     } else if (human === "PAPER" && computer === "ROCK") {
         console.log("You win! Paper beats Rock");
+        ++humanScore;
     } else if (human === "SCISSOR" && computer === "PAPER") {
         console.log("You win! Scissor beats Paper");
+        ++humanScore;
     } else if (human === "ROCK" && computer === "SCISSOR") {
         console.log("You win! Rock beats Scissor");
+        ++humanScore;
     } else {
         console.log("You draw!");
     }

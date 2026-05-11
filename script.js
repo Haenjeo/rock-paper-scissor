@@ -72,5 +72,9 @@ function playGames() {
     playRound(humanSelection,computerSelection);
     playRound(humanSelection,computerSelection);
     playRound(humanSelection,computerSelection);
-
+    if (humanScore > computerScore) {
+        console.log("Human win!")
+    } else {
+        console.log("Computer win!") 
+    }
 }
